@@ -1,0 +1,5 @@
+# see https://sozvyezdami.wordpress.com/2015/05/13/on-unity-5-game-engine-heightmaps-photoshop-imagemagick-linux-etc/<
+# import into Unity, trying first Windows byte order then Mac
+convert x.png -depth 16 y.gray
+mv y.gray y.raw
+
